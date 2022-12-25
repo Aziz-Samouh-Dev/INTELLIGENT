@@ -1,0 +1,45 @@
+#a {
+    background-color: #deefe74d ;
+}
+
+.login {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth_from {
+    background-color: var(--primary-color);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.auth_from .form_group input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.auth_from .auth_btn {
+    border: none ;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: var(--hero-bg);
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 800 ; 
+}
+
+.auth_from p {
+    padding: 20px 0 0 0;
+}
+
+.auth_from p a {
+    color: rgb(94, 94, 94);
+}
+.auth_from p a:hover {
+    color: var(--heading-text-color);
+}

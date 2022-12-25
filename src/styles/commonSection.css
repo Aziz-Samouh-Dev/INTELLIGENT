@@ -1,0 +1,12 @@
+
+
+.common_section {
+    background: #0B486B; 
+    background: -webkit-linear-gradient(to right, #F56217, #0B486B); 
+    background: linear-gradient(to right, #F56217, #0B486B); 
+}
+
+.common_section h1 {
+    color: #fff;
+    font-weight: 600;
+}
